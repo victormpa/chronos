@@ -1,0 +1,4 @@
+python-binance==0.7.5
+pandas==1.1.4
+pandas-ta==0.2.23b0
+structlog==20.1.0

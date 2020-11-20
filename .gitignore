@@ -51,6 +51,9 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 
+# Secrets
+*.secret
+
 # Translations
 *.mo
 *.pot
@@ -103,7 +106,9 @@ celerybeat.pid
 
 # Environments
 .env
+.envrc
 .venv
+.vscode
 env/
 venv/
 ENV/
@@ -127,3 +132,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Others
+.DS_Store
